@@ -17,7 +17,9 @@ button{
     margin: 0;
 }
 
-
+li{
+    list-style: none;
+}
 
 /* 
 ********
@@ -39,10 +41,6 @@ nav a {
     color: black;
 }
 
- nav li{
-    list-style: none;
-}
-
 nav ul.flex{
     gap: 20px;
     margin: 20px;
@@ -56,6 +54,29 @@ nav ul.flex{
     padding: 10px;
 
  }
+
+ header .contenitore{
+    width: 1180px;
+    margin: auto;
+}
+
+ .circle,
+.active{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    border: 1px solid grey;
+    margin-top: 50px;
+    margin-right:  5px;
+}
+
+hr{
+    width: 50px;
+    border: 1px solid #d0d0d3;
+}
+
+
 /* 
 ********
 DEBUG
@@ -76,10 +97,7 @@ nav .btn{
     padding: 5px 10px;
 }
 
- header .contenitore{
-    width: 1050px;
-    margin: auto;
-}
+
 
 header .titolo{
     width: 100%;
@@ -87,7 +105,7 @@ header .titolo{
     font-weight: bolder;
 }
 
-.jumbo{
+header .jumbo{
     padding-top: 100px;
     background-color: #b4d0e7;
     max-height: 735px;
@@ -124,4 +142,99 @@ header .titolo{
 .box-2 img{
     width: 100%;
     height: 468px;
+}
+
+/* 
+********
+MAIN
+********
+*/
+
+.mainbox{
+    margin: auto;
+    width: 1000px;
+    margin-top: 150px;
+}
+
+.active{
+    border: 3px solid #0061ff;
+}
+main .opzioni span{
+    margin-right: 50px;
+}
+
+main h2{
+    font-size: 40px;
+}
+
+.container-piano{
+gap: 50px;    
+width: 100%; 
+margin-top: 50px; 
+}
+
+.abbonamento{
+    width: 300px;   
+    border: 1px solid grey;
+}
+
+.piano-head{
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+    background-color: white;
+    margin-top: 0;
+    border-bottom: 1px solid gray;
+}
+.piano-main{
+    padding:0px 30px 40px;
+}
+.descrizione{
+     padding: 30px 0px;
+}
+
+.descrizione h3{
+    font-size: 25px;
+    margin-top: 0;
+}
+
+
+.descrizione>div {
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.abbonamento ul{
+    font-size: 14px;
+    padding: 10px;
+}
+.abbonamento ul li {
+    margin-top: 25px;
+    align-items: flex-start ;
+   
+}
+
+.abbonamento ul li i{
+    padding-top: 2px;
+    padding-right: 5px;
+}
+
+.container-piano .btn{
+    width: 100%;
+    margin: 50px 0px;
+    padding: 10px 35px;
+    font-size: 13px;
+}
+ 
+main hr{
+    margin: 25px 0px;
+}
+
+
+.check{
+    color: #0061ff;
+}
+
+.durata{
+    color: #d0d0d3;
 }
