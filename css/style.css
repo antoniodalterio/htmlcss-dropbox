@@ -9,3 +9,65 @@ RESET
     padding: 0;
     box-sizing: border-box;
 }
+
+button{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* 
+********
+COMMON
+********
+*/
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+ nav li{
+    list-style: none;
+}
+
+nav ul.flex{
+    gap: 20px;
+    margin: 20px;
+    align-items: center;
+ }
+
+.btn{
+    font-size: 16px;
+    background-color: #0061ff ;
+    color: white;
+    padding: 10px;
+
+ }
+/* 
+********
+DEBUG
+********
+*/
+
+/* 
+********
+HEADER
+********
+*/
+
+nav.flex{
+    justify-content: space-between;
+}
