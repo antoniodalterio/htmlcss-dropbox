@@ -62,12 +62,6 @@ DEBUG
 ********
 */
 
-.debug  header .contenitore{
-}
-
-.debug .contenitore .contenitore-jumbo{  
-}
-
 /* 
 ********
 HEADER
@@ -76,6 +70,10 @@ HEADER
 nav.flex{
     justify-content: space-between;
     background-color: white;
+}
+
+nav .btn{
+    padding: 5px 10px;
 }
 
  header .contenitore{
@@ -90,9 +88,9 @@ header .titolo{
 }
 
 .jumbo{
-    padding-top: 40px;
+    padding-top: 100px;
     background-color: #b4d0e7;
-    max-height: 680px;
+    max-height: 735px;
 }
 .contenitore .contenitore-jumbo{
     width: 100%;
@@ -109,7 +107,7 @@ header .titolo{
     margin-bottom: 30px;
 }
 .position{
-    height: 150px;
+    height: 140px;
     position: relative
 }
 .entity{
@@ -125,6 +123,5 @@ header .titolo{
 
 .box-2 img{
     width: 100%;
-    height: 500px;
-    padding-right: ;
+    height: 468px;
 }
