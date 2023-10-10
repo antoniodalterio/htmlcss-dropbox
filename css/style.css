@@ -60,8 +60,8 @@ nav ul.flex{
  }
 
  header .contenitore{
-    width: 1180px;
-    margin: auto;
+    width: 1200px;
+    margin: 0   auto;
 }
 
  .circle,
@@ -92,9 +92,23 @@ DEBUG
 HEADER
 ********
 */
+header nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    line-height: 80px;
+    height: 80px;
+    z-index: 99;
+}
+
+#logo{
+    display: block;
+}
 nav.flex{
     justify-content: space-between;
     background-color: white;
+    align-items: center;
 }
 
 nav .btn{
@@ -104,15 +118,14 @@ nav .btn{
 
 
 header .titolo{
-    width: 100%;
-    font-size: 35px;
-    font-weight: bolder;
+    font-size: 40px;
 }
 
-header .jumbo{
-    padding-top: 100px;
+.jumbo{
+    position: relative;
+    padding-top: 155px;
     background-color: #b4d0e7;
-    max-height: 735px;
+    height: 820px;
 }
 .contenitore .contenitore-jumbo{
     width: 100%;
@@ -121,7 +134,7 @@ header .jumbo{
 }
 
 .contenitore-jumbo .box-1{
-    width: 33%;
+    width: 30%;
     margin-right: 10px;
 }
 
@@ -140,12 +153,11 @@ header .jumbo{
 }
 
 .contenitore-jumbo .box-2{
-    width: 67%;
+    width: 70%;
 }
 
 .box-2 img{
     width: 100%;
-    height: 468px;
     display: block;
 }
 
@@ -423,7 +435,8 @@ sezione 5
     background-color: #d5001f;
 }
 
-#hearts-corp{
+#hearts-corp
+{
     background-color: #b4d0e7;
 }
 
@@ -439,3 +452,50 @@ blockquote{
     margin-top: 56px;
 }
 
+/* sezione 6 */
+.bg-promo{
+    width: 100%;
+    background-color: #b4d0e7;
+    align-items: center;
+
+}
+
+.promo-box{
+    width: 1000px;
+    margin: 0px auto;
+    padding: 100px 0px;
+    align-items: center;
+
+}
+section div.promo-box h2,
+section div.promo-box div.btn-team{
+width: 50%;
+align-items: flex-start;
+justify-content: flex-end;
+}
+
+section div.promo-box div .btn{
+    background-color: white;
+    color: black;
+}
+
+h2.alternative-text{
+    color: #61082b;
+}
+
+/* sezione 6 */
+.faq{
+    width: 1000px;
+    margin: 50px auto;
+}
+.faq div h2,
+div.domande{
+    padding: 70px 0px;
+    border-bottom: 2px solid #999999;
+}
+
+div.domande{
+    padding: 50px 50px 50px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
