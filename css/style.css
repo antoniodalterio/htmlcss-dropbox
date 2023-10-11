@@ -44,12 +44,16 @@ COMMON
 */
 
 h3{
-    font-size: 25px;
+    font-size: 30px;
+}
 
+h4{
+    font-size: 20px;
 }
 
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 .flex{
@@ -246,20 +250,11 @@ flex-wrap: wrap;
      padding: 30px 0px;
 }
 
-.descrizione h3{
-    margin-top: 0;
+.descrizione h3,
+.descrizione>div{
+    line-height: 2;
 }
 
-
-.descrizione>div {
-    font-size: 14px;
-    margin-top: 20px;
-}
-
-.abbonamento ul{
-    font-size: 14px;
-    padding: 10px;
-}
 .abbonamento ul li {
     margin-top: 25px;
     align-items: flex-start ;
@@ -275,11 +270,10 @@ flex-wrap: wrap;
     width: 100%;
     margin: 50px 0px;
     padding: 10px 35px;
-    font-size: 13px;
 }
  
 main hr{
-    margin: 25px 0px;
+    margin: 40px 0px;
 }
 
 
@@ -318,7 +312,6 @@ main hr{
 }
 
 .btn-team .btn{
-    font-size: 13px;
     padding: 10px 35px;
 }
 
@@ -426,8 +419,8 @@ sezione 5
 
 .square,
 .square2{
-width: 50%;
-height: 50%;
+    width: 50%;
+    height: 50%;
 }
 
 .design{
@@ -589,4 +582,5 @@ footer{
 
 .caret{
     font-size: 10px;
+    margin-left: -10px;
 }
